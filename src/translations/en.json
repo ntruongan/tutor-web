@@ -1,0 +1,31 @@
+{
+    "navbar": {
+      "home": "Home",
+      "classes": "Classes",
+      "teachers": "Teachers",
+      "students": "Students",
+      "switchLanguage": "Switch Language"
+    },
+    "homePage": {
+      "welcomeMessage": "Welcome to our tutoring website!",
+      "description": "We offer a wide range of classes and experienced teachers to help you excel in your studies."
+    },
+    "classListPage": {
+      "pageTitle": "Class List",
+      "noClassesMessage": "No classes available at the moment."
+    },
+    "teacherListPage": {
+      "pageTitle": "Teacher List",
+      "noTeachersMessage": "No teachers available at the moment."
+    },
+    "classDetailPage": {
+      "pageTitle": "Class Detail",
+      "teacherListTitle": "Teachers registered to this class"
+    },
+    "languageSwitcher": {
+      "selectLanguage": "Select Language",
+      "english": "English",
+      "vietnamese": "Vietnamese"
+    }
+  }
+  

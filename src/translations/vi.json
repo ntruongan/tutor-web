@@ -1,0 +1,31 @@
+{
+    "navbar": {
+      "home": "Trang chủ",
+      "classes": "Lớp học",
+      "teachers": "Giáo viên",
+      "students": "Học sinh",
+      "switchLanguage": "Chuyển đổi ngôn ngữ"
+    },
+    "homePage": {
+      "welcomeMessage": "Chào mừng đến với trang web gia sư của chúng tôi!",
+      "description": "Chúng tôi cung cấp một loạt các lớp học và giáo viên kinh nghiệm để giúp bạn thành công trong học tập."
+    },
+    "classListPage": {
+      "pageTitle": "Danh sách lớp học",
+      "noClassesMessage": "Không có lớp học hiện có."
+    },
+    "teacherListPage": {
+      "pageTitle": "Danh sách giáo viên",
+      "noTeachersMessage": "Không có giáo viên hiện có."
+    },
+    "classDetailPage": {
+      "pageTitle": "Chi tiết lớp học",
+      "teacherListTitle": "Các giáo viên đã đăng ký lớp học này"
+    },
+    "languageSwitcher": {
+      "selectLanguage": "Chọn ngôn ngữ",
+      "english": "Tiếng Anh",
+      "vietnamese": "Tiếng Việt"
+    }
+  }
+  
