@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import Navbar from "./components/common/Navbar";
 import AboutPage from "./components/pages/AboutPage";
 import ClassList from "./components/pages/ClassList";
@@ -17,12 +17,12 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/" component={ClassList} />
+          <Route exact path="/" element={<ClassList />} />
           <Route path="/about" component={AboutPage} />
-          <Route path="/classes" component={ClassList} />
-          <Route path="/class/:id" component={ClassDetails} />
-          <Route path="/students" component={StudentList} />
-          <Route path="/student/:id" component={StudentDetails} />
+          <Route path="/classes" element={<ClassList />} />
+          <Route path="/class/:id" element={<ClassDetails />} />
+          <Route path="/students" element={<StudentList />} />
+          <Route path="/student/:id" element={<StudentDetails />} />
         </Routes>
       </Router>
     </LanguageContext.Provider>

@@ -1,6 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const AboutPage = () => {
+  // eslint-disable-next-line no-unused-vars, no-undef
+  const { translations } = useContext(LanguageContext);
+
   return (
     <div>
       <h2>About Page</h2>

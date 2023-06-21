@@ -4,6 +4,7 @@ export const LanguageContext = createContext();
 
 export const getTranslations = (language) => {
   try {
+    // eslint-disable-next-line no-undef
     const translations = require(`../translations/${language}.json`);
     return translations;
   } catch (error) {
